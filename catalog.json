@@ -9,26 +9,26 @@
             "healthy": true,
             "healthy_error": null,
             "home": "https://truecharts.org/charts/stable/wordpress",
-            "location": "/home/runner/work/catalog/catalog/stable/wordpress",
+            "location": "/home/runner/work/catalog/catalog/development/wordpress",
             "latest_version": "8.0.3",
-            "latest_app_version": "6.5.2",
-            "latest_human_version": "6.5.2_8.0.3",
+            "latest_app_version": "6.6.0",
+            "latest_human_version": "6.6.0_8.0.3",
             "last_update": "2024-04-30 18:32:01",
             "name": "wordpress",
             "recommended": false,
             "title": "Wordpress",
             "maintainers": [
                 {
-                    "name": "TrueCharts",
-                    "email": "info@truecharts.org",
-                    "url": "https://truecharts.org"
+                    "name": "John Robe",
+                    "email": "john@jrobe.me",
+                    "url": "https://jrobe.me"
                 }
             ],
             "tags": [],
             "screenshots": [],
             "sources": [
                 "https://www.wordpress.org",
-                "https://github.com/truecharts/charts/tree/master/charts/stable/wordpress",
+                "https://github.com/jrobe/charts/tree/master/charts/development/wordpress",
                 "https://hub.docker.com/r/bitnami/wordpress"
             ],
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/wordpress.webp"
