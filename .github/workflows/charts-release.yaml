@@ -284,7 +284,7 @@ jobs:
           steps.collect-changes.outputs.changesDetectedAfterTag == 'true'
         with:
           fetch-depth: 1
-          repository: truecharts/catalog
+          repository: jrobe/catalog
           token: ${{ secrets.BOT_TOKEN }}
           ref: staging
           path: catalog
