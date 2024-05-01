@@ -158,5 +158,6 @@ jobs:
           git config user.email "bot@truecharts.org"
           git add --all
           git commit -m "Commit new Chart releases for TrueCharts"
-          git push origin main
+          git branch new-changes
+          git push -u origin new-changes
           cd -
