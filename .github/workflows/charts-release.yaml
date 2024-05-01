@@ -114,8 +114,6 @@ jobs:
 
       - name: Generate Changelog
         shell: bash
-        if: |
-          steps.collect-changes.outputs.changesDetectedAfterTag == 'true'
         run: |
           export GOBIN=/usr/local/bin/
           go install github.com/git-chglog/git-chglog/cmd/git-chglog@latest
