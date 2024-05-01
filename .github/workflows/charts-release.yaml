@@ -159,5 +159,5 @@ jobs:
           git add --all
           git commit -m "Commit new Chart releases for TrueCharts"
           git branch new-changes
-          git push -u origin new-changes
+          git push
           cd -
